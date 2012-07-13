@@ -77,7 +77,7 @@ var Dajaxice = {
     },
 
     default_exception_callback: function(data){
-        alert('Something goes wrong');
+        alert('Dajaxice exception caught -- see dajaxice logger output, configured via settings.LOGGING, for details');
     },
 
     valid_http_responses: function(){
